@@ -57,6 +57,8 @@ The e-mail is now responsive in that when a user views it on an iPhone 6, 6s, 7,
 
 In all, I tried to keep both the HTML and CSS files as short as possible while still having the range of functionality needed.
 
+I added a short screen recording I made using QuickTime Player to demonstrate what the e-mail looks like on mobile.
+
 ## Future Improvements
 
 * implement Trello Board for ease of done/future tasks
