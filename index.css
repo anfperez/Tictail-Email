@@ -1,0 +1,105 @@
+/* background and font colors were taken from the spec; Tajawal was a Google font that is similar to the font used in the spec */
+body {
+    background-color: #dedede;
+    font-family: "Tajawal";
+    color: black;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* the display:flex property is the key to getting the grid to display correctly */
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;                     
+  justify-content: space-around;
+  
+}
+
+/* specifications for the 1/3 column. The flex property is what allows the pictures to display in the grid*/
+.col-1-3 {
+  flex: 0 0 32%;                   
+  margin-bottom: 5px;
+}
+/* specifies that the image will take up 100% of the column width */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* font color for the small text on the page */
+.subtext, .smalltext {
+    color: #a3a4a5
+}
+/* makes the disclaimer text at the bottom smaller */
+.smalltext {
+    font-size: 12px;
+}
+
+/* specifies that all social media icons must be 20px tall */
+.social {
+    height: 20px;
+}
+
+/* this removes the underlines from links to match the spec more closely */
+a {
+    text-decoration: none;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* one example of special @media tag for different size screens; other devices would need their own tags */
+/* the !important tags for the font sizes are to lock the font sizes in place -- otherwise, the text is too small to comfortably read */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  /* here, .grid has a flex-direction of "column" to make the images stack when viewed on a phone screen */
+  .grid {
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 50px !important;
+  }
+  p {
+    font-size: 40px !important;
+  }
+  /*grid2 is a mobile-only class that centers the items inside the grid to make it look cleaner when viewed on a phone screen */
+  .grid2 {
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+  }
+  .col-1-3 h4 {
+    font-size: 40px !important;
+  }
+  .col-1-2 {
+    width: 100%;
+  }
+  /* makes the social media icons look bigger on a phone screen so it's easier to touch */
+  .social {
+    height: 50px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-container {
+    font-size: 20px !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .disclaimer {
+    font-size: 20px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
