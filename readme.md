@@ -1,6 +1,9 @@
 # Tictail E-mail Example
 
-## Link on CodePen: https://codepen.io/anfperez/pen/Pebwyr
+## To View
+* Link on CodePen: https://codepen.io/anfperez/pen/Pebwyr
+* View on Mac: Download this repo to your local machine. Open terminal and type "open index.html" to run. Index.html will open in default broswer.
+* View Mobile version Chrome: to view mobile version, right click on index.html once opened. Select "Inspect". On the Developer toolbar, scroll up and click the icon second to the left (Toggle device toolbar), which resembles a mobile tablet and a cell phone. Once you are in the Device view, use the top toolbar to select which device to emulate. In this case, we will be emulating the iPhone 6/7/8.
 
 ## Technologies Used
 
@@ -47,15 +50,15 @@ grid
 grid
 	1/3 - 1/3 - 1/3
 
-All links open in a new tab. Most of the links are configured to lead to the main Tictail site (www.tictail.com), but the social media links lead directly to each of Tictail's social media pages.
+All links open in a new tab. Most of the links are configured to lead to the main Tictail site (www.tictail.com), but the social media links lead directly to each of Tictail's social media pages. 
+
+In all, I tried to keep both the HTML and CSS files as short as possible while still having the range of functionality needed.
 
 ## Mobile Version 
 
-I knew that I wanted the e-mail to be responsive to mobile devices. In order to make this happen, I consulted a list of common breakpoints for different devices. I found [this](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) list very useful. Ultimately, I picked out the breakpoint for the iPhone 6, 7, 8 to use in the e-mail project. If this was an actual e-mail, I would implement more screen sizes, device types, and browsers.
+I knew that I wanted the e-mail to be responsive to mobile devices. In order to make this happen, I consulted a list of common breakpoints for different devices. I found [this](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) list very useful. Ultimately, I picked out the breakpoint for the iPhone 6, 6s, 7, 8 to use in the e-mail project. If this was an actual e-mail, I would implement more screen sizes, device types, and browsers.
 
 The e-mail is now responsive in that when a user views it on an iPhone 6, 6s, 7, or 8, the images will stack on top of each other instead of being presented in a 3x3 grid. I used the Emulator dev tool built into Chrome to view the e-mail on an iPhone-sized screen. 
-
-In all, I tried to keep both the HTML and CSS files as short as possible while still having the range of functionality needed.
 
 I added a short screen recording I made using QuickTime Player to demonstrate what the e-mail looks like on mobile.
 
