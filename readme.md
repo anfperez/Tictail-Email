@@ -68,3 +68,5 @@ I added a short screen recording I made using QuickTime Player to demonstrate wh
 ## Thoughts
 
 I really enjoyed preparing this coding assignment. I was able to practice much of the front-end design work I have done in the past, both at jobs and in personal projects. I have also never worked with a vector graphics sheet before, but learning how to open it and export individual images using Adobe Illustrator turned out to be surprisingly easy. Thank you for giving me the opportunity to turn this sample e-mail into real HTML and CSS. 
+
+![tictail](https://github.com/anfperez/Tictail-Email/blob/master/iPhone_example.gif "tictail")
